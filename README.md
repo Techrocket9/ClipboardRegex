@@ -8,3 +8,5 @@ Instead of operating on a document however, it runs the replacement on the conte
 The intent of this is to make the mindless task of copying strings from one source to another with small repetitive adjustmensts somewhat less awful.
 
 It's minimally funcional now. I may add features/document/clean up code later.
+
+Known compatibility issues with Ditto clipboard manager.
