@@ -10,3 +10,7 @@ The intent of this is to make the mindless task of copying strings from one sour
 It's minimally funcional now. I may add features/document/clean up code later.
 
 Known compatibility issues with Ditto clipboard manager.
+
+Screenshot:
+
+![alt tag](http://i.imgur.com/GYf59ts.png)
