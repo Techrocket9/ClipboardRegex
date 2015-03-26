@@ -14,3 +14,5 @@ Known compatibility issues with Ditto clipboard manager.
 Screenshot:
 
 ![alt tag](http://i.imgur.com/GYf59ts.png)
+
+GPLv3 License
