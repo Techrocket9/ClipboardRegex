@@ -1,0 +1,24 @@
+﻿<Window x:Class="ClipboardRegex.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter Regex to apply to clipboard copies here" Height="140" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="FindWhat" Text="Find What" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" FontFamily="Cambria" FontSize="16" Grid.Row="0"/>
+        <TextBox x:Name="ReplaceWith" Text="Replace With" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" FontFamily="Cambria" FontSize="16" Grid.Row="1"/>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="MultLineOpt" Content="Multiline?" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" IsChecked="True"/>
+            <CheckBox x:Name="DotMatchNL" Content=". matches newline?" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" IsChecked="True"/>
+        </Grid>        
+
+    </Grid>
+</Window>
